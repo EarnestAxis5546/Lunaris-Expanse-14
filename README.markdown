@@ -66,7 +66,7 @@ Lunaris Expanse is built from the ground up for Space Station 14, offering a uni
 A Space Station 14 server crafted for mature Sexual Roleplay (SERP), inspired by Bluemoon. Built in C# on the Robust Toolbox engine, it features custom mechanics for intimate interactions, deep character development, and atmospheric sci-fi events. Optimized on Arch Linux, it ensures high performance and scalability for players exploring consensual narratives in a vibrant interstellar setting. (Active Development 🔥)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=EarnestAxis5546&repo=lunaris-expanse&theme=gruvbox&show_owner=true&border_radius=10&show_icons=true&bg_color=282828&title_color=FE8019&text_color=FABD2F&icon_color=FE8019" alt="Lunaris Expanse Repo Card" width="50%">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=EarnestAxis5546&repo=lunaris-expanse-14&theme=gruvbox&show_owner=true&border_radius=10&show_icons=true&bg_color=282828&title_color=FE8019&text_color=FABD2F&icon_color=FE8019" alt="Lunaris Expanse Repo Card" width="50%">
 </p>
 
 ---
@@ -89,14 +89,15 @@ Set up Lunaris Expanse locally to develop or test the server.
    ```
 2. **Install Dependencies**:
    ```bash
-   dotnet restore
+   python RUN_THIS.py
+   dotnet build
    ```
 3. **Configure the Server**:
    - Copy `config.example.toml` to `config.toml`.
    - Edit `config.toml` for server name, port, and roleplay settings.
 4. **Run the Server**:
    ```bash
-   dotnet run --project Server
+   Start your server /bin/Content.Server/Content.Server
    ```
 5. **Connect**:
    - Launch the Space Station 14 client.
@@ -147,7 +148,7 @@ Join our community to roleplay, collaborate, or seek support:
 
 - **Documentation**: [![Docs](https://img.shields.io/badge/Docs-ReadMe-4285F4?style=plastic&logo=read-the-docs&logoColor=white)](https://docs.lunarisexpanse.com)
 - **Discord**: [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=plastic&logo=discord&logoColor=white)](https://discord.gg/lunarisexpanse)
-- **Issues**: [![Issues](https://img.shields.io/badge/Issues-Report-181717?style=plastic&logo=github&logoColor=white)](https://github.com/EarnestAxis5546/lunaris-expanse/issues)
+- **Issues**: [![Issues](https://img.shields.io/badge/Issues-Report-181717?style=plastic&logo=github&logoColor=white)](https://github.com/EarnestAxis5546/lunaris-expanse-14/issues)
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=EarnestAxis5546&repo=lunaris-expanse&style=plastic&color=FF6E40&label=Repo+Views" alt="Repo Views">
